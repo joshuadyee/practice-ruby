@@ -18,5 +18,18 @@ class Item
   end
 end
 
-eraser = Item.new("pink", 3, 5)
-p eraser.color
+erasers = Item.new("pink", 3, 5)
+p erasers
+
+pencils = Item.new("yellow", 5, 12)
+p pencils
+
+pens = Item.new("blue", 7, 15)
+p pens
+
+paper = Item.new("white", 12, 500)
+p paper
+
+p paper.color
+paper.color = "offwhite"
+p paper.color
